@@ -1,0 +1,16 @@
+<svg width="70" height="52" viewBox="0 0 70 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3" />
+      <feOffset dx="0" dy="3" result="offsetblur" />
+      <feFlood flood-color="rgba(0, 0, 0, 0.5)" />
+      <feComposite in2="offsetblur" operator="in" />
+      <feMerge>
+        <feMergeNode />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="0" width="70" height="52" rx="12" fill="#FF0000" filter="url(#shadow)" />
+  <polygon points="25,18 25,37 40,27.5" fill="white" />
+</svg>
